@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: resttemplateserver-hub
-          image: dketya/resttemplateserver-hub
+          image: dketya/resttemplateserver-hub:239770f8a07dbe8301b4a78e7ca52c9fa1624172
           ports:
             - containerPort: 8080
           env:
